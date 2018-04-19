@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Freelance Web Developer</title>
+    <link>https://www.kristasimmons.io/blog/</link>
+    <description>Recent content in Blogs on Freelance Web Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jun 2017 12:13:43 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.kristasimmons.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://www.kristasimmons.io/blog/software-craftsmanship/</link>
+      <pubDate>Tue, 06 Jun 2017 12:13:43 -0700</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/software-craftsmanship/</guid>
+      <description>In a recent interview I was asked to define what &amp;ldquo;software craftsmanship&amp;rdquo; means to me. I felt a sense of relief answering this question. Not only because it was a change of pace from a technical whiteboard question, but I had recently reflected on the similarities between software development and another passion of mine. From my understanding, having craftsmanship is the pursuit of furthering your knowledge and skills towards an activity or passion.</description>
+    </item>
+    
+    <item>
+      <title>20 minute rule</title>
+      <link>https://www.kristasimmons.io/blog/20-minute-rule/</link>
+      <pubDate>Sun, 21 May 2017 12:02:56 -0700</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/20-minute-rule/</guid>
+      <description>For any new programmers who are starting off at their junior developer position or internship, I have some advice: The 20 Minute Rule (when to ask for help).
+When I first started my web development internship at scientist.com, it was a bit overwhelming. Jumping into a massive codebase and making sure you don’t set anything on fire or bring down the company’s online platform had literally given me nightmares. Once I got over that hump, I ran into a new issue I hadn’t faced before.</description>
+    </item>
+    
+    <item>
+      <title>Running my site with Hugo</title>
+      <link>https://www.kristasimmons.io/blog/hugo-blog/</link>
+      <pubDate>Thu, 04 May 2017 12:23:46 -0700</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/hugo-blog/</guid>
+      <description>Now wishing I would&amp;rsquo;ve started my web dev/designer blog a long time ago! I have a Wordpress music blog, but I wanted to try a new form of blogging for this one.
+I&amp;rsquo;m currently launching a separate site specifically for my blog, but in the meantime I will start posting content here on my portfolio site. The blog is being created using Hugo, which is a static site generator and it&amp;rsquo;s being hosted through github pages.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on Freelance Web Developer</title>
+    <link>https://www.kristasimmons.io/work/</link>
+    <description>Recent content in Works on Freelance Web Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.kristasimmons.io/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-1/</guid>
+      <description>VolunteerUP is an app that connects nonprofit organizations with eager volunteers. Users are able to register as volunteers, search for events in their area, and sign up for events as volunteers. Users are also able to register as organizers that administer their nonprofit organization pages, create a calendar of events, and request volunteers. Check out the project on Github</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-2/</guid>
+      <description>Helped build out Organik SEO&amp;rsquo;s new website. Involved in building out custom post type </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-5/</guid>
+      <description>A modern home &amp;amp; sign up design for an iOS App. Created the design based on the web app VolunteerUP, which I previously helped co-develop during my time at LEARN Academy. I wanted to stay consistent with the original app, so I stuck to the same font and color scheme. This is my first iOS app design and surley won&amp;rsquo;t be my last! I used draw.io to create a user flowchart prior to the low-fidelity prototype.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-6/</guid>
+      <description>Weather Watcher is a weather app that will take in a location and produce the degrees in F, the location, weather icon, percentage humidity, windspeed and direction. Depending on the weather (ex. sunny, raining, snow, etc.) a different icon will show each time.
+I utilized the OpenWeatherMap Api and added in the ability to have the weather updated by current geographic location rather than inputing a zip code or city. If a user&amp;rsquo;s browser isn&amp;rsquo;t supported by geolocation, then it will prompt the user to manually enter in their zip code.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-7/</guid>
+      <description>This Hi-Lo Game was created with jQuery and Javascript. A user is given 7 tries to guess the computer generated number from 1-100. Each time the player clicks the &amp;ldquo;Submit Guess&amp;rdquo; button, it will print out the number of tries left at the bottom of the game screen page. View code on GitHub</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-8/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
