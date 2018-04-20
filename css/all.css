@@ -1388,3 +1388,7 @@ body main article.blog-single {
 .posts-list a {
     color:#52CCBA;
 }
+
+h3#work a {
+    color:#fff;
+}
