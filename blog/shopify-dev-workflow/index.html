@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  
+      <meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Krista Simmons is a freelance web developer, designer, SEO consultant, digital marketer and music lover in San Diego. Contact her here to work together.">
+<meta name="author" content="Krista Simmons - Web Developer || UX Designer">
+<meta name="generator" content="Hugo 0.20.7" />
+
+<title>
+  
+  
+      Shopify Theme Development Workflow | Freelance Web Developer
+  
+</title>
+
+<link rel="stylesheet" href="https://www.kristasimmons.io/css/all.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+      <!-- Header section -->
+<header id="header">
+    <nav>
+        <a href="/#about-me">About me</a>
+        <a href="/#work">Work</a>
+        <a href="/#clients">Testimonials</a>
+        <a href="/#contact">Contact</a>
+        <a href="/#blog">Blog</a>
+    </nav>
+    <h1><span>Krista Simmons</span></h1>
+    <p class="kicker"> Full STack Web Developer // UX Designer</p>
+</header>
+
+      
+
+
+  <body>
+    
+    <main>
+      <section class="container">
+          <section class="content">
+              <h1> Shopify Theme Development Workflow </h1>
+
+            
+              <div class="sub-header">
+                  April 6, 2018 · 3 minute read
+              </div>
+              <article class="entry-content blog-single">
+                  
+
+<p><img src="/img/blog/shopify_banner_img.jpg" alt="SHopify Partners" /></p>
+
+<p>This is a simple step-by-step workflow to set up a Shopify Development Environment from the command line. The idea is to keep a similar workflow to other dev environments. A similar workflow would mean managing the theme files locally by making changes and committing those changes with Git while running a command line tool to watch for changes and automatically update the theme on the Shopify store.</p>
+
+<p>This post is a brief primer on setting up your Shopify dev environment. Please check out the  <a href="https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-setting-up-a-local-shopify-theme-development-environment">Shopify Partner&rsquo;s docs</a> for further details.</p>
+
+<h2 id="basic-installation-from-the-command-line">Basic Installation from The Command line</h2>
+
+<p><strong>1. Install ThemeKit</strong></p>
+
+<p><a href="https://shopify.github.io/themekit/">Theme Kit</a> is command line tool used to upload and manage files on Shopify store theme. If you have <a href="https://brew.sh/">Homebrew</a>, installed you can install Theme Kit by running the following commands:</p>
+
+<pre><code> brew tap shopify/shopify
+ brew install themekit
+</code></pre>
+
+<p><strong>2. Create a directory</strong></p>
+
+<pre><code>mkdir STORE-NAME-HERE
+cd STORE-NAME-HERE
+</code></pre>
+
+<p><strong>3. Create</strong> <code>config-example.yml</code> <strong>file</strong></p>
+
+<pre><code>vim config-example.yml
+</code></pre>
+
+<p><strong>4. Add the following to the</strong> <code>config-example.yml</code> <strong>file</strong></p>
+
+<pre><code>development:
+    store: example.myshopify.com
+    password: add-password-in-config
+    theme_id: &quot;live&quot;
+    bucket_size: 40
+    refill_rate: 2
+    ignore_files:
+        - &quot;*.swp&quot;
+        - &quot;*~&quot;
+        - &quot;config/settings_data.json&quot;
+</code></pre>
+
+<p><strong>5. Initialize Repo</strong></p>
+
+<pre><code>git init
+</code></pre>
+
+<p><strong>6. Create a</strong> <code>.gitignore</code> <strong>file</strong>
+and add the following:</p>
+
+<pre><code>config.yml
+config/settings_data.json
+</code></pre>
+
+<p><strong>7. Copy the</strong> <code>config-example.yml</code> <strong>to the file Theme Kit will need</strong></p>
+
+<pre><code>cp config-example.yml config.yml.
+</code></pre>
+
+<p><strong>8. Create a private app within the Shopify store admin</strong></p>
+
+<p>This will yield a password to add to <code>config.yml</code>.</p>
+
+<p><img src="/img/blog/shopify_app.png" alt="Private App" /></p>
+
+<p>In Admin API Permissions, make sure the “Theme templates and theme assets” is set to Read and write</p>
+
+<p><img src="/img/blog/shopify_permissions.jpg" alt="Permissions" /></p>
+
+<p><strong>9. Now go ahead and set the store URL and password in</strong> <code>config.yml</code></p>
+
+<pre><code>development:
+    password: ENTER-SHOPIFY-PRIVATE-APP-PASSWORD
+    theme_id: &quot;live&quot;
+    store: YOUR-STORE.myshopify.com
+</code></pre>
+
+<p><strong>10. Next you need to pull down the theme from Shopify</strong></p>
+
+<pre><code>    theme download
+</code></pre>
+
+<p>Note: If you receive an error saying you cannot load any valid environments, configure the theme like this before downloading the theme:</p>
+
+<pre><code>Theme configure --password=[your-password] --store=[your-store.myshopify.com] -- example.myshopify.com password: add-password-in-config --themeid=[your-theme-id]
+</code></pre>
+
+<p><strong>11. Make first commit</strong></p>
+
+<p>Once the theme is downloaded and the Git repository has been initialized, go ahead and create the first commit.</p>
+
+<p>Go ahead and add all the files with:</p>
+
+<pre><code>git add --all and
+</code></pre>
+
+<p>make a commit with:</p>
+
+<pre><code>git commit -m &quot;enter your first commit message here&quot;
+</code></pre>
+
+<p>From here, you can now push up your code to a repo management platform such as Github or Bitbucket</p>
+
+<p><strong>12. Lastly, you want to give Theme Kit either of the following commands to push updates to your store</strong></p>
+
+<p>Watch will start a process that will watch your directory for changes and upload them to Shopify.</p>
+
+<pre><code>theme watch
+</code></pre>
+
+<p>or</p>
+
+<p>Upload will update all of the current file states to Shopify.</p>
+
+<pre><code>theme upload
+</code></pre>
+
+<h2 id="multiple-environment-configurations">Multiple Environment Configurations</h2>
+
+<p>It&rsquo;s possible to create multiple environments for your Shopify store. This comes in handy, especially if you are looking to make changes in a development environment and have a separate production store to push these changes live. Each environment needs it&rsquo;s own Shopify store to in order to obtain separate private app credentials. Once you create a separate store, you must update the <code>config-example.yml</code> file to:</p>
+
+<pre><code>SHARED: &amp;SHARED
+    store: example.myshopify.com
+    password: test
+    theme_id: 'live'
+    bucket_size: 40
+    refill_rate: 2
+    ignore_files:
+        - &quot;*.swp&quot;
+        - &quot;*~&quot;
+        - &quot;config/settings_data.json&quot;
+
+development:
+    &lt;&lt;: *SHARED
+    password: ADD_PASSWORD_HERE
+    store: TEST_STORE_NAME.myshopify.com
+
+production:
+    &lt;&lt;: *SHARED
+    password: ADD_PASSWORD_HERE
+    store: LIVE_STORE_NAME.myshopify.com
+</code></pre>
+
+<p>Then you would specify which environment you want to watch for changes:</p>
+
+<pre><code>theme watch --env development
+
+or
+
+theme upload --env production
+</code></pre>
+
+<h2 id="closing-thoughts">Closing thoughts</h2>
+
+<p>Again, this is a quick set up guide to get you up and running with the default Shopify theme. I came across a few other articles that helped me:</p>
+
+<ul>
+<li><a href="https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-setting-up-a-local-shopify-theme-development-environment">3 simple steps for setting up a local Shopify theme development environment</a></li>
+<li><a href="http://www.brettchalupa.com/shopify-theme-development-workflow">Shopify Theme Development Workflow</a></li>
+<li><a href="https://robots.thoughtbot.com/shopify-theme-development">Shopify Theme Development</a></li>
+</ul>
+
+              </article>
+               
+
+            
+              <div class="pagination">
+                  
+                      <h4><a href="https://www.kristasimmons.io/blog/software-craftsmanship/">&laquo; Software Craftsmanship</a></h4>
+                  
+                  
+              </div>
+            
+          </section>
+          <br>
+
+      </section>
+      <!-- Footer section -->
+<footer id="footer">
+    <div class="lockup">
+        <div class="content-wrap">
+            <nav>
+                <a href="#about-me">About me</a>
+                <a href="#work">Work</a>
+                
+                <a href="#contact">Contact</a>
+            </nav>
+            <p class="copyright">&copy;Krista Simmons 2018</p>
+        </div>
+    </div>
+</footer>
+
+    </main>
+  </body>
+</html>

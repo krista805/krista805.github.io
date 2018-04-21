@@ -663,7 +663,9 @@ header {
       text-align: center;
       padding-top: 90px; }
     header h1 {
-      padding-top: 0px; } }
+      padding-top: 0px;
+      font-size:57px;
+       } }
 footer {
   background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); }
   footer .lockup {
