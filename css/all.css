@@ -983,7 +983,7 @@ article.work {
     margin: 0 0 20px; }
   .work-container img {
     max-width: 100%;
-    margin-bottom: 20px; }
+    margin: 20px auto; }
   .work-container .work-return {
     height: 40px;
     width: 40px;
@@ -1393,4 +1393,21 @@ body main article.blog-single {
 
 h3#work a {
     color:#fff;
+}
+
+
+/* blog single styling */
+.blog-container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* work single view  */
+article.work p{
+  font-size:18px;
+  line-height:25px;
+}
+
+article.work a{
+  color: #52CCBA;
 }
