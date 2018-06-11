@@ -46,7 +46,7 @@ function workBelt() {
 
 function  workLoad() {
   
-  $.ajaxSetup({ cache: true, url:'https://www.kristasimmons.io'});
+  $.ajaxSetup({ cache: false });
   
   $('.thumb-container label').click(function() {
     var $this = $(this),
