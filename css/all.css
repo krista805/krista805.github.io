@@ -1411,3 +1411,16 @@ article.work p{
 article.work a{
   color: #52CCBA;
 }
+
+
+.resume {
+  margin-top:10px;
+}
+
+.resume h3 a {
+  color: #52CCBA;
+}
+
+.resume h3 a:hover {
+  color: #fff;
+}
