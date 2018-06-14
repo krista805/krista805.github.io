@@ -1424,3 +1424,12 @@ article.work a{
 .resume h3 a:hover {
   color: #fff;
 }
+
+
+h3#work.portfolio-external {
+  padding-top:10px;
+}
+
+h3#work.portfolio-external a {
+  color: #52CCBA;
+}
