@@ -1433,3 +1433,7 @@ h3#work.portfolio-external {
 h3#work.portfolio-external a {
   color: #52CCBA;
 }
+
+.social-links a:hover {
+  color:#fff;
+}
