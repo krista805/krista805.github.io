@@ -1408,6 +1408,11 @@ article.work p{
   line-height:25px;
 }
 
+article ul li {
+  font-size: 18px;
+  line-height: 25px;
+}
+
 article.work a{
   color: #52CCBA;
 }
