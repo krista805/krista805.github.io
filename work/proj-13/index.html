@@ -1,0 +1,38 @@
+  
+  
+
+    <main>
+      <section class="container-fluid blog-container">
+          <section class="content container">
+              <h1>  </h1>
+
+            
+               <article class="entry-content work">
+                   
+
+<p>I was tasked to build out a landing page for <a href="https://us.honmagolf.com/" target="_blank">Honma Golf&rsquo;s</a> marketing efforts. Honma recently re-developed their US eCommerce website and decided to build it on Shopify. They needed a quick solution for their sales reps to send out an email blast to current and prospective clients about their new clubs. Because of the design complexities and number of products they wanted to showcase, we decided to build a landing page template in Shopify vs an HTML email template. In the email blast, we included an image banner that links to the Shopify landing page.
+<a href="https://us.honmagolf.com/pages/discover-honma" target="_blank">View Landing Page</a></p>
+
+<p><img src="img/work/proj-13/honma_landing_page_mockup.jpg" alt="Honma Golf Landing Page" /></p>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+<li>Since this was a landing page, you don&rsquo;t want the page to show up in search results. You can prevent a page from appearing in search results by including a noindex meta tag in the page&rsquo;s HTML code. I created an &lsquo;if&rsquo; statement in <code>theme.liquid</code>&rsquo;s header that will only inject this noindex code in the &lsquo;landing1&rsquo; template.
+<code>
+{% if template contains 'landing1' %}
+&lt;meta name=&quot;robots&quot; content=&quot;noindex&quot;&gt;
+{% endif %}
+</code></li>
+<li>Shopify is limited when it comes to customizing URL structures, so if you were to create a landing page the URL structure would be sitename.com/pages/landing-page. Unfortunately, you can remove &lsquo;pages&rsquo; from the URL so take this into consideration when building landing pages in Shopify.</li>
+</ul>
+
+               </article>
+            
+
+            
+          </section>
+          <br>
+
+        
+    </main> 
