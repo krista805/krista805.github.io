@@ -52,7 +52,7 @@ if (!doNotTrack) {
 
 		<!-- Header section -->
 <header id="header">
-    <a href="https://www.kristasimmons.io/"><span class="logo"></span></a>
+    <a aria-label="Click to redirect to home page" href="https://www.kristasimmons.io/"><span class="logo"></span></a>
     <nav>
         <a href="/#about-me">About me</a>
         <a href="/#work">Work</a>
@@ -498,7 +498,7 @@ if (!doNotTrack) {
         </div>
         <div class="work-wrap">
             <div class="work-container">
-                <label for="return">
+                <label for="return" aria-label="Return to list of work items">
                     <div class="work-return"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 40 40"><path style="fill: #fff;" d="M22.896 29.125c-.256 0-.512-.098-.707-.293l-8.125-8.125c-.391-.391-.391-1.023 0-1.414l8.125-8.125c.391-.391 1.023-.391 1.414 0s.391 1.023 0 1.414l-7.418 7.418 7.417 7.418c.391.391.391 1.023 0 1.414-.195.195-.451.293-.706.293zM20 6c7.72 0 14 6.28 14 14s-6.28 14-14 14-14-6.28-14-14 6.28-14 14-14m0-2c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16z"/></svg>
 </div>
                 </label>
@@ -712,19 +712,19 @@ if (!doNotTrack) {
     <div class="clients-logos">
     
       	
-       	<img class="client-logo active-client" src="img/clients/organik_logo.jpg" align="organik_logo.jpg">
+       	<img class="client-logo active-client" src="img/clients/organik_logo.jpg" align="organik_logo.jpg" alt="organik_logo.jpg">
 		
     
       	
-    	<img class="client-logo" src="img/clients/scientist_logo.jpg" align="scientist_logo.jpg">
+    	<img class="client-logo" src="img/clients/scientist_logo.jpg" align="scientist_logo.jpg" alt="Scientist.com">
        	
     
       	
-    	<img class="client-logo" src="img/clients/cf_logo.jpg" align="cf_logo.jpg">
+    	<img class="client-logo" src="img/clients/cf_logo.jpg" align="cf_logo.jpg" alt="Computer Futures">
        	
     
       	
-    	<img class="client-logo" src="img/clients/organik_logo.jpg" align="organik_logo.jpg">
+    	<img class="client-logo" src="img/clients/organik_logo.jpg" align="organik_logo.jpg" alt="Organik SEO Logo">
        	
     
     </div>
@@ -736,11 +736,11 @@ if (!doNotTrack) {
     <h3 id="contact">Contact</h3>
     <div class="social-links">
         
-        <a href="//www.behance.net/kristasimmons" class="icon-behance" target="_blank" ></a>
+        <a href="//www.behance.net/kristasimmons" class="icon-behance" target="_blank" aria-label="behance"></a>
         
-        <a href="//github.com/krista805" class="icon-github" target="_blank" ></a>
+        <a href="//github.com/krista805" class="icon-github" target="_blank" aria-label="github"></a>
         
-        <a href="//www.linkedin.com/in/krista-simmons/" class="icon-linkedin" target="_blank" ></a>
+        <a href="//www.linkedin.com/in/krista-simmons/" class="icon-linkedin" target="_blank" aria-label="linkedin"></a>
         
     </div>
     <hr class="bar">
@@ -760,15 +760,15 @@ if (!doNotTrack) {
     <h3 id="form-title">Let&#39;s work together</h3>
     <form method="POST" action="//formspree.io/kristasimmons.design@gmail.com">
         <fieldset class="contact-info-group">
-            <label>
-                <input type="text" name="name" placeholder="Your Name">
+            <label for="name">
+                <input id="name" type="text" name="name" placeholder="Your Name">
             </label>
-            <label>
-                <input type="email" name="_replyto" placeholder="Your Email">
+            <label for="email">
+                <input id="email" type="email" name="_replyto" placeholder="Your Email">
             </label>
         </fieldset>
-        <label>
-            <textarea name="message" placeholder="Tell me about your project"></textarea>
+        <label for="message">
+            <textarea id="message" name="message" placeholder="Tell me about your project"></textarea>
         </label>
         <fieldset class="submit-wrap">
             <input type="submit" value="Send">
