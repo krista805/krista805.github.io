@@ -54,38 +54,51 @@
               <article class="entry-content blog-single">
                   <p><img src="/img/blog/email-service-domain.jpg" alt="Email Service" /></p>
 
-<p><a href="https://pages.github.com/" target="_blank">GitHub Pages</a> is an awesome, free way to host a website. This is where my current developer portfolio lives. Although it&rsquo;s a pretty simple setup, GitHub is lacking a solution to directly configure a custom email domain (for example hi@my.domain rather then helloworld@gmail.com). Even though an email address may seem like a small detail in the larger branding picture, custom email domain can help enhance your overall brand image and build customer trust.</p>
+<p><strong><a href="https://pages.github.com/" target="_blank">GitHub Pages</a></strong> is an awesome, free way to host a website. This is where my current developer portfolio lives. Although it&rsquo;s a pretty simple setup, GitHub is lacking a solution to directly configure a custom email domain (for example hi@my.domain rather then helloworld@gmail.com). Even though an email address may seem like a small detail in the larger branding picture, custom email domain can help enhance your overall brand image and build customer trust.</p>
 
 <p>Below are step-by-step instructions on how to set up a custom email address to send and receive emails, which will route to your Google Gmail account.</p>
 
 <p><strong>Step 1: Sign up for a domain email service</strong></p>
 
-<p>There is a choice of solutions for that, paid and free. On the free side here are a few free services:
-postale.io
-Zoho Mail free plan
-Yandex
- Zoho Mail free plan limits you to their webmail only, and Yandex has ads. postale.io doesn&rsquo;t have those limitations. For this instance, I will use postale.io.</p>
+<p>There is a choice of solutions for that, paid and free. On the free side here are a few free services:</p>
+
+<ul>
+<li><p><strong><a href="https://postale.io/" target="_blank">postale.io</a></strong></p></li>
+
+<li><p><strong><a href="https://www.zoho.com/mail/" target="_blank">Zoho Mail free plan</a></strong></p></li>
+
+<li><p><strong><a href="https://mail.yandex.com/" target="_blank">Yandex</a></strong></p></li>
+</ul>
+
+<p>Zoho Mail free plan limits you to their webmail only, and Yandex has ads. postale.io doesn&rsquo;t have those limitations. For this instance, I will use postale.io.</p>
 
 <p>When you’ve signed up you’ll want to click <strong>Admin</strong> in the bottom left of the sidebar menu, then <strong>Create a new email</strong>. You’ll be asked to enter the email name (eg. <strong>hi</strong>@my.domain).</p>
 
-<p>Step 2: Configure your DNS</p>
+<p><strong>Step 2: Configure your DNS</strong></p>
 
-<p>DNS records tell mail senders which service handles incoming email for the domain. Setting up postale.io will mean updating your domains MX and TXT records to point back to the service. You will now want to navigate to your registrar from which you acquired your domain. If you aren&rsquo;t sure where you registered your domain, you can search for your domain host online at <a href="https://lookup.icann.org/">https://lookup.icann.org/</a>. The example I will show you is from the Google Domains, although it’s always the same process for every registrar.</p>
+<p>DNS records tell mail senders which service handles incoming email for the domain. Setting up postale.io will mean updating your domains MX and TXT records to point back to the service. You will now want to navigate to your registrar from which you acquired your domain. If you aren&rsquo;t sure where you registered your domain, you can search for your domain host online at <strong><a href="https://lookup.icann.org/" target="_blank">lookup.icann.org</a></strong>. The example I will show you is from the Google Domains, although it’s always the same process for every registrar.</p>
 
-<p>You will need to add an MX record as well as two TXT Records. You can find the correct DNS records you will need to copy from postale.io here: <a href="https://postale.io/configure">https://postale.io/configure</a>.</p>
+<p>You will need to add an MX record as well as two TXT Records. You can find the correct DNS records you will need to copy from postale.io here: <strong><a href="https://postale.io/configure" target="_blank"><a href="https://postale.io/configure">https://postale.io/configure</a></a></strong>.</p>
 
-<p>Copy and paste the DNS records that they ask you to create and then click continue. You can use <a href="https://mxtoolbox.com/">https://mxtoolbox.com/</a> to verify that your records are properly implemented.</p>
+<p>Copy and paste the DNS records that they ask you to create and then click continue. You can use <strong><a href="https://mxtoolbox.com/" target="_blank">mxtoolbox.com</a></strong> to verify that your records are properly implemented.</p>
 
-<p>Step 3: Set up email redirect
-In the Postale.io sidebar menu, click <strong>Admin</strong> and then <strong>Create a redirect (alias)</strong>. Here you will want to redirect your newly generated email to your Gmail email address. Once you’ve added the redirect you’ll be able to receive email via your custom domain. Try sending an email to the new address and you’ll see it get forwarded automatically to your Gmail.</p>
+<p><img src="/img/blog/mx_txt_record.png" alt="DNS Record Configuration" /></p>
 
-<p>Step 4: Connect Mail Client (Gmail) to Domain Email
-Copy the following <strong>POP3</strong> information: <a href="https://postale.io/client">https://postale.io/client</a>. You will copy and paste this information in Gmail.</p>
+<p><strong>Step 3: Set up email redirect</strong></p>
+
+<p>In the Postale.io sidebar menu, click <strong>Admin</strong> and then <strong>Create a redirect (alias)</strong>. Here you will want to redirect your newly generated email to your Gmail email address. Once you’ve added the redirect you’ll be able to receive email via your custom domain. Try sending an email to the new address and you’ll see it get forwarded automatically to your Gmail.</p>
+
+<p><img src="/img/blog/postale_email_redirect.png" alt="Postale.io email redirect" /></p>
+
+<p><strong>Step 4: Connect Mail Client (Gmail) to Domain Email</strong></p>
+
+<p>Copy the following <strong>POP3</strong> information: <strong><a href="https://postale.io/client" target="_blank">postale.io/client</a></strong>. You will copy and paste this information in Gmail.</p>
 
 <p>Navigate to Gmail. Open <strong>Gmail</strong> and click on Settings &gt; Accounts and Import &gt; Check email from other accounts &gt; <strong>Add an email account</strong>. Enter your domain email address and follow the steps to inject your Postale.io <strong>POP3</strong> information.</p>
 
-<p>Step 5: Send emails from a different address
-You should now be able to view your custom domain emails in your Gmail account. But now you want to be able to send email responses with your new email vs your Gmail address.
+<p><strong>Step 5: Send emails from a different address</strong></p>
+
+<p>You should now be able to view your custom domain emails in your Gmail account. But now you want to be able to send email responses with your new email vs your Gmail address.
 Open <strong>Gmail</strong> and click on Settings &gt; Accounts and Import &gt; click <strong>Add another email address</strong> located in the &ldquo;Send mail as&rdquo; section
 Enter your name and the address you want to send from
 Click <strong>Next Step</strong>  &gt; <strong>Send verification</strong>.
@@ -95,7 +108,7 @@ Confirm the address. You will receive an email, and you will need to click on a 
 
 <p>Now when sending a message, click the &ldquo;From&rdquo; line. (If you don&rsquo;t see this, click the space next to the recipient&rsquo;s email). Select the address to send from, and boom, you can now receive and send emails from your custom email domain!</p>
 
-<p>Please let me know if you hit any roadblocks and/or need a hand implementing a custom email domain. You can contact me directly at hello@kristasimmons.io.</p>
+<p>Please let me know if you hit any roadblocks and/or need a hand implementing a custom email domain. You can contact me directly at <strong><a href="mailto:hello@kristasimmons.io">hello@kristasimmons.io</a></strong>.</p>
 
               </article>
                
