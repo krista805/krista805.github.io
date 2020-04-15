@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.kristasimmons.io/blog/custom-email-domain-github-pages/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.kristasimmons.io/blog/shopify-dev-workflow/</loc>
     <lastmod>2019-12-10T15:16:54-06:00</lastmod>
   </url>
@@ -89,13 +94,13 @@
   
   <url>
     <loc>https://www.kristasimmons.io/blog/</loc>
-    <lastmod>2019-12-10T15:16:54-06:00</lastmod>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.kristasimmons.io/</loc>
-    <lastmod>2019-12-10T15:16:54-06:00</lastmod>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

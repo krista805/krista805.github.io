@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Freelance Web Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2019 15:16:54 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.kristasimmons.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create a Custom Email Domain When GitHub Pages is Your Web Host</title>
+      <link>https://www.kristasimmons.io/blog/custom-email-domain-github-pages/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/custom-email-domain-github-pages/</guid>
+      <description>GitHub Pages is an awesome, free way to host a website. This is where my current developer portfolio lives. Although it&amp;rsquo;s a pretty simple setup, GitHub is lacking a solution to directly configure a custom email domain (for example hi@my.domain rather then helloworld@gmail.com). Even though an email address may seem like a small detail in the larger branding picture, custom email domain can help enhance your overall brand image and build customer trust.</description>
+    </item>
     
     <item>
       <title>Shopify Theme Development Workflow</title>
