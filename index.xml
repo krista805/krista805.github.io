@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freelance Web Developer</title>
+    <link>https://www.kristasimmons.io/</link>
+    <description>Recent content on Freelance Web Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kristasimmons.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Custom Email Domain When GitHub Pages is Your Web Host</title>
+      <link>https://www.kristasimmons.io/blog/custom-email-domain-github-pages/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/custom-email-domain-github-pages/</guid>
+      <description>GitHub Pages is an awesome, free way to host a website. This is where my current developer portfolio lives. Although it&amp;rsquo;s a pretty simple setup, GitHub is lacking a solution to directly configure a custom email domain (for example hi@my.domain rather then helloworld@gmail.com). Even though an email address may seem like a small detail in the larger branding picture, a custom email domain can help enhance your overall brand image and build customer trust.</description>
+    </item>
+    
+    <item>
+      <title>Shopify Theme Development Workflow</title>
+      <link>https://www.kristasimmons.io/blog/shopify-dev-workflow/</link>
+      <pubDate>Tue, 10 Dec 2019 15:16:54 -0600</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/shopify-dev-workflow/</guid>
+      <description>This is a simple step-by-step workflow to set up a Shopify Development Environment from the command line. The idea is to keep a similar workflow to other dev environments. A similar workflow would mean managing the theme files locally by making changes and committing those changes with Git while running a command line tool to watch for changes and automatically update the theme on the Shopify store.
+This post is a brief primer on setting up your Shopify dev environment.</description>
+    </item>
+    
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://www.kristasimmons.io/blog/software-craftsmanship/</link>
+      <pubDate>Tue, 06 Jun 2017 12:13:43 -0700</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/software-craftsmanship/</guid>
+      <description>In a recent interview I was asked to define what &amp;ldquo;software craftsmanship&amp;rdquo; means to me. I felt a sense of relief answering this question. Not only because it was a change of pace from a technical whiteboard question, but I had recently reflected on the similarities between software development and another passion of mine. From my understanding, having craftsmanship is the pursuit of furthering your knowledge and skills towards an activity or passion.</description>
+    </item>
+    
+    <item>
+      <title>20 minute rule</title>
+      <link>https://www.kristasimmons.io/blog/20-minute-rule/</link>
+      <pubDate>Sun, 21 May 2017 12:02:56 -0700</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/20-minute-rule/</guid>
+      <description>For any new programmers who are starting off at their junior developer position or internship, I have some advice: The 20 Minute Rule (when to ask for help).
+When I first started my web development internship at scientist.com, it was a bit overwhelming. Jumping into a massive codebase and making sure you don’t set anything on fire or bring down the company’s online platform had literally given me nightmares. Once I got over that hump, I ran into a new issue I hadn’t faced before.</description>
+    </item>
+    
+    <item>
+      <title>Running my site with Hugo</title>
+      <link>https://www.kristasimmons.io/blog/hugo-blog/</link>
+      <pubDate>Thu, 04 May 2017 12:23:46 -0700</pubDate>
+      
+      <guid>https://www.kristasimmons.io/blog/hugo-blog/</guid>
+      <description>Now wishing I would&amp;rsquo;ve started my web dev/designer blog a long time ago! I have a Wordpress music blog, but I wanted to try a new form of blogging for this one.
+I&amp;rsquo;m currently launching a separate site specifically for my blog, but in the meantime I will start posting content here on my portfolio site. The blog is being created using Hugo, which is a static site generator and it&amp;rsquo;s being hosted through github pages.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-1/</guid>
+      <description>VolunteerUP is an app that connects nonprofit organizations with eager volunteers. Users are able to register as volunteers, search for events in their area, and sign up for events as volunteers. Users are also able to register as organizers that administer their nonprofit organization pages, create a calendar of events, and request volunteers. Check out the project on Github</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-10/</guid>
+      <description>Built with CSS Grid. A dream board (or vision board) is a visual tool that serves as a visual representation of your dreams and your ideal life View demo site View code on GitHub</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-11/</guid>
+      <description>Built a custom Shopify store for a consumer packaged goods client. Used the liquid templating language, jQuery, HTML, CSS. Fully responsive site with custom built features such as the homepage product slider. View dev site</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-12/</guid>
+      <description>Agency73 was looking for a branding revamp in order to improve their online presence and upcoming marketing efforts. I redid their whole website, as well as designing marketing materials to send to prospective clients. Their old existing website didn’t clearly communicate their service offering and lacked a personal/appealing look and feel. There weren’t any style guides or design mockups to refer to, so I had the opportunity to drive both the design and development efforts for this project.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-13/</guid>
+      <description>I was tasked to build out a landing page for Honma Golf&amp;rsquo;s marketing efforts. Honma recently re-developed their US eCommerce website and decided to build it on Shopify. They needed a quick solution for their sales reps to send out an email blast to current and prospective clients about their new clubs. Because of the design complexities and number of products they wanted to showcase, we decided to build a landing page template in Shopify vs an HTML email template.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-14/</guid>
+      <description>Helped build out Organik SEO&amp;rsquo;s new website. Involved in building out custom post type </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-15/</guid>
+      <description>ARMA is a lifestyle-driven sports nutrition brand for the action and adventure athlete. They came to Agency73 looking for a robust, yet flexible eCommerce store. We suggested using Shopify based on the requirements:
+ Ease of use for the client to monitor orders, revenue, and products Ability to integrate a subscription-based model for some of their products Automatically fulfill orders and seamlessly connect to their third party logistics Out-of-box, lightweight eCommerce solution that is well optimized/built for speed Build out 2 separate blogs - one to highlight Arma&amp;rsquo;s sponsors/athletes and another for Recipes and Workouts Configure and implement a promo code input option at the store checkout  Once we received the design assets, I was tasked to build out the entire website.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-16/</guid>
+      <description>Crypto Portfolio Tracker using Vue/Nuxt, bootstrap, and the CoinGecko API.
+My main goal for this project was to get a better familiarity with componentization. Although I work primarily on a Vue application for my current job, I am following already established patterns for our components.
+The first step I took was to create user stories, divided into two phases. The first phase was user stories required to complete in order to launch.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-2/</guid>
+      <description>I had the opportunity to build out the UI for a marketing anomaly detection project at Agency73. I had previously expressed interest in bettering my skills in a JavaScript framework, and fortunate enough, Agency73 wanted me to code out this project’s UI. We decided to use Vue.JS as the front-end framework.
+Without getting into too much into detail, the primary objective of this project was to create a proof of concept machine learning-based tool that would:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-5/</guid>
+      <description>A modern home &amp;amp; sign up design for an iOS App. Created the design based on the web app VolunteerUP, which I previously helped co-develop during my time at LEARN Academy. I wanted to stay consistent with the original app, so I stuck to the same font and color scheme. This is my first iOS app design and surley won&amp;rsquo;t be my last! I used draw.io to create a user flowchart prior to the low-fidelity prototype.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-6/</guid>
+      <description>PROJECT OVERVIEW:
+A simple dice game called &amp;ldquo;pig&amp;rdquo;. This Javascript project puts DOM manipulation and events into practice.
+TAKEAWAYS:
+ How to create fundamental game variables Generating a random number How to read and manipulate the DOM How to change css styles through Javascript Setting up event listeners Using callbacks and anonymous functions  GAME RULES:
+ The game has 2 players, playing in rounds In each turn, a player rolls a dice as many times as he whishes.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-7/</guid>
+      <description>Weather Watcher is a weather app that will take in a location and produce the degrees in F, the location, weather icon, percentage humidity, windspeed and direction. Depending on the weather (ex. sunny, raining, snow, etc.) a different icon will show each time.
+I utilized the OpenWeatherMap Api and added in the ability to have the weather updated by current geographic location rather than inputing a zip code or city. If a user&amp;rsquo;s browser isn&amp;rsquo;t supported by geolocation, then it will prompt the user to manually enter in their zip code.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-8/</guid>
+      <description>Here I built out a responsive landing page using a sass/gulp workflow. I decided to develop a travel landing page for my hometown, Ventura California. View demo site View code on GitHub</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.kristasimmons.io/work/proj-9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kristasimmons.io/work/proj-9/</guid>
+      <description>Developed an agency landing page template for Design Revision. Utilized Bootstrap for with a mobile-first approach. View demo site View code on GitHub</description>
+    </item>
+    
+  </channel>
+</rss>

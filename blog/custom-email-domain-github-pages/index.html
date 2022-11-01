@@ -1,0 +1,126 @@
+  
+      <meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Krista Simmons is a freelance web developer, designer, SEO consultant, digital marketer and music lover in San Diego. Contact her here to work together.">
+<meta name="author" content="Krista Simmons - Web Developer || UX Designer">
+<meta name="generator" content="Hugo 0.90.0" />
+
+<title>
+  
+  
+      Create a Custom Email Domain When GitHub Pages is Your Web Host | Freelance Web Developer
+  
+</title>
+
+<link rel="stylesheet" href="https://www.kristasimmons.io/css/all.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+      <!-- Header section -->
+<header id="header">
+    <a aria-label="Click to redirect to home page" href="https://www.kristasimmons.io/"><span class="logo"></span></a>
+    <nav>
+        <a href="/#about-me">About me</a>
+        <a href="/#work">Work</a>
+        <a href="/#clients">Testimonials</a>
+        <a href="/#contact">Contact</a>
+        <a href="/#blog">Blog</a>
+    </nav>
+    <h1><span>Krista Simmons</span></h1>
+    <p class="kicker"> Full STack Web Developer // UX Designer</p>
+</header>
+
+      
+
+    <main>
+      <section class="container-fluid blog-container">
+          <section class="content container">
+              <h1> Create a Custom Email Domain When GitHub Pages is Your Web Host </h1>
+
+            
+              <div class="sub-header">
+                  April 15, 2020 · 4 minute read
+              </div>
+              <article class="entry-content blog-single">
+                  <p><img src="/img/blog/email-service-domain.jpg" alt="Email Service"></p>
+<p><strong><a href="https://pages.github.com/" target="_blank">GitHub Pages</a></strong> is an awesome, free way to host a website. This is where my current developer portfolio lives. Although it&rsquo;s a pretty simple setup, GitHub is lacking a solution to directly configure a custom email domain (for example <a href="mailto:hi@my.domain">hi@my.domain</a> rather then <a href="mailto:helloworld@gmail.com">helloworld@gmail.com</a>). Even though an email address may seem like a small detail in the larger branding picture, a custom email domain can help enhance your overall brand image and build customer trust.</p>
+<p>Below are step-by-step instructions on how to set up a custom email address to send and receive emails, which will route to your Google Gmail account.</p>
+<p><strong>Step 1: Sign up for a domain email service</strong></p>
+<p>There is a choice of solutions for that, paid and free. On the free side here are a few free services:</p>
+<ul>
+<li>
+<p><strong><a href="https://postale.io/" target="_blank">postale.io</a></strong></p>
+</li>
+<li>
+<p><strong><a href="https://www.zoho.com/mail/" target="_blank">Zoho Mail free plan</a></strong></p>
+</li>
+<li>
+<p><strong><a href="https://mail.yandex.com/" target="_blank">Yandex</a></strong></p>
+</li>
+</ul>
+<p>Zoho Mail free plan limits you to their webmail only, and Yandex has ads. postale.io doesn&rsquo;t have those limitations. For this instance, I will use postale.io.</p>
+<p>When you’ve signed up you’ll want to click <strong>Admin</strong> in the bottom left of the sidebar menu, then <strong>Create a new email</strong>. You’ll be asked to enter the email name (eg. **<a href="mailto:hi**@my.domain">hi**@my.domain</a>).</p>
+<p><strong>Step 2: Configure your DNS</strong></p>
+<p>DNS records tell mail senders which service handles incoming email for the domain. Setting up postale.io will mean updating your domains MX and TXT records to point back to the service. You will now want to navigate to your registrar from which you acquired your domain. If you aren&rsquo;t sure where you registered your domain, you can search for your domain host online at <strong><a href="https://lookup.icann.org/" target="_blank">lookup.icann.org</a></strong>. The example I will show you is from the Google Domains, although it’s always the same process for every registrar.</p>
+<p>You will need to add an MX record as well as two TXT Records. You can find the correct DNS records you will need to copy from postale.io here: <strong><a href="https://postale.io/configure" target="_blank"><a href="https://postale.io/configure">https://postale.io/configure</a></a></strong>.</p>
+<p>Copy and paste the DNS records that they ask you to create and then click continue. You can use <strong><a href="https://mxtoolbox.com/" target="_blank">mxtoolbox.com</a></strong> to verify that your records are properly implemented.</p>
+<p><img src="/img/blog/mx_txt_record.png" alt="DNS Record Configuration"></p>
+<p><strong>Step 3: Set up email redirect</strong></p>
+<p>In the Postale.io sidebar menu, click <strong>Admin</strong> and then <strong>Create a redirect (alias)</strong>. Here you will want to redirect your newly generated email to your Gmail email address. Once you’ve added the redirect you’ll be able to receive email via your custom domain. Try sending an email to the new address and you’ll see it get forwarded automatically to your Gmail.</p>
+<p><img src="/img/blog/postale_email_redirect.png" alt="Postale.io email redirect"></p>
+<p><strong>Step 4: Connect Mail Client (Gmail) to Domain Email</strong></p>
+<p>Copy the following <strong>POP3</strong> information: <strong><a href="https://postale.io/client" target="_blank">postale.io/client</a></strong>. You will copy and paste this information in Gmail.</p>
+<p>Navigate to Gmail. Open <strong>Gmail</strong> and click on Settings &gt; Accounts and Import &gt; Check email from other accounts &gt; <strong>Add an email account</strong>. Enter your domain email address and follow the steps to inject your Postale.io <strong>POP3</strong> information.</p>
+<p><strong>Step 5: Send emails from a different address</strong></p>
+<p>You should now be able to view your custom domain emails in your Gmail account. But now you want to be able to send email responses with your new email vs your Gmail address.
+Open <strong>Gmail</strong> and click on Settings &gt; Accounts and Import &gt; click <strong>Add another email address</strong> located in the &ldquo;Send mail as&rdquo; section
+Enter your name and the address you want to send from
+Click <strong>Next Step</strong>  &gt; <strong>Send verification</strong>.
+Enter the SMTP server (for example, <strong>mail.postale.io</strong> in our case) and the username and password on your postale.io account.
+Click <strong>Add Account</strong>.
+Confirm the address. You will receive an email, and you will need to click on a link to confirm.</p>
+<p>Now when sending a message, click the &ldquo;From&rdquo; line. (If you don&rsquo;t see this, click the space next to the recipient&rsquo;s email). Select the address to send from, and boom, you can now receive and send emails from your custom email domain!</p>
+<p>Please let me know if you hit any roadblocks and/or need a hand implementing a custom email domain. You can contact me directly at <strong><a href="mailto:hello@kristasimmons.io" target="_blank"><a href="mailto:hello@kristasimmons.io">hello@kristasimmons.io</a></a></strong>.</p>
+
+              </article>
+               
+
+            
+              <div class="pagination">
+                  
+                      <h4><a href="https://www.kristasimmons.io/blog/shopify-dev-workflow/">&laquo; Shopify Theme Development Workflow</a></h4>
+                  
+                  
+              </div>
+            
+          </section>
+          <br>
+
+        
+          <!-- Footer section -->
+<footer id="footer">
+    <div class="lockup">
+        <div class="content-wrap">
+            <nav>
+                <a href="#about-me">About me</a>
+                <a href="#work">Work</a>
+                
+                <a href="#contact">Contact</a>
+            </nav>
+            <p class="copyright">&copy;Krista Simmons 2020</p>
+        </div>
+    </div>
+</footer>
+
+        
+    </main> 
