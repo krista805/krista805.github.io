@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="49px" viewBox="0 0 48 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="13.3782513%" y2="85.3401561%" id="linearGradient-1">
+            <stop stop-color="#51D0F5" offset="0%"></stop>
+            <stop stop-color="#19A9B7" offset="59.5556358%"></stop>
+            <stop stop-color="#01AA93" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="download" fill-rule="nonzero">
+            <path d="M17.7596444,0.3008 C8.00746667,0.3008 0.101688889,8.20657778 0.101688889,17.9584 L0.101688889,48.0974222 L30.2403556,48.0974222 C39.9925333,48.0974222 47.8983111,40.1912889 47.8983111,30.4394667 L47.8983111,0.3008 L17.7596444,0.3008 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+            <polygon id="Shape" fill="#FFFFFF" points="24.832 11.2277333 21.7006222 8.09635556 40.0764444 8.12266667 40.1024 26.4981333 36.9713778 23.3671111 36.9539556 11.2448"></polygon>
+            <polygon id="Shape" fill="#FFFFFF" points="11.0460444 37.1530667 11.0289778 25.0311111 7.8976 21.8997333 7.92391111 40.2752 26.2993778 40.3015111 23.168 37.1701333"></polygon>
+            <polygon id="Shape" fill="#FFFFFF" points="16.2236444 13.5740444 29.4300444 37.1708444 31.7767111 34.8241778 18.5703111 11.2273778"></polygon>
+        </g>
+    </g>
+</svg>
